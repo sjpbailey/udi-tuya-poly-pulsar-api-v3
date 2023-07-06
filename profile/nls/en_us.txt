@@ -1,0 +1,19 @@
+# controller
+ND-tuya-NAME = Tuya NodeServer Controller
+ND-tuya-ICON = Alarm
+ST-tuyanls-ST-NAME = Tuya NodeServer Running
+CMD-tuyanls-REMOVE_NOTICES_ALL-NAME = Remove Notices
+CMD-tuyanls-DISCOVER-NAME = Query
+
+# Pulsar
+ND-pulsa-NAME = Pulse 
+ND-pulsa-ICON = Electricity
+ST-pula-ST-NAME = Node Status
+ST-pula-GV2-NAME = Up
+ST-pula-GV3-NAME = Down
+ST-pula-GV4-NAME = Time
+CMD-pula-STLVL-NAME = Pulsar Start
+CMD-pula-QUERY-NAME = Query
+
+
+

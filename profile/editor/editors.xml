@@ -1,0 +1,57 @@
+<editors>
+    <!-- Boolean -->
+    <editor id="bool">
+        <range uom="2" subset="0,1"/>
+    </editor>
+    <editor id="I_DURATION">
+        <range uom="45" subset="0,1,5,20"/>
+    </editor>
+    <editor id="I_PERCENT">
+        <range uom="51" min="1" max="100" prec="0" step="1" />
+    </editor>
+    <editor id="B_PERCENT">
+        <range uom="51" min="0" max="100" prec="0" step="1" />
+    </editor>
+    <editor id="B_TIME">
+        <range uom="56" min="0" max="99999" prec="0" step="1"/>
+    </editor>
+    <editor id="I_SWITCH_STATUS">
+        <range uom="25" subset="0,1,2,3" nls="ISS"/>
+    </editor>
+    <editor id="I_DEBUG">
+        <range uom="25" subset="9,10,20,30,40,50" nls="CDM"/>
+    </editor>
+    <editor id="LEVEL">
+        <range uom="51" min="1" max="100" step="1" prec="0"/>
+    </editor>
+    <editor id="LEVELT">
+        <range uom="57" min="0" max="9999" step="1" prec="0"/>
+    </editor>
+    <editor id="LEVEC">
+        <range uom="100" min="1" max="255" step="1" prec="0"/>
+    </editor>
+    <editor id="MODE">
+        <range uom="25" subset="0-1" nls="MODE" />
+    </editor>
+    <editor id="MODECL">
+        <range uom="25" subset="0-15" nls="MODECL" />
+    </editor>
+    <editor id="MODE1">
+        <range uom="25" subset="0-5" nls="MODE1" />
+    </editor>
+    <editor id="MODEM">
+        <range uom="25" subset="0-4" nls="MODEM" />
+    </editor>
+    <editor id="MODES">
+        <range uom="25" subset="0-2" nls="MODESU" />
+    </editor>
+    <editor id="MODESW">
+        <range uom="25" subset="0-1" nls="MODESW" />
+    </editor>
+    <editor id="STATB">
+        <range uom="25" subset="0-8" nls="STATB" />
+    </editor>
+    <editor id="RUNBOB">
+        <range uom="25" subset="0-1" nls="RUNBOB" />
+    </editor>
+</editors>

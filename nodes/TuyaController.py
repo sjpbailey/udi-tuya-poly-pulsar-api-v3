@@ -162,51 +162,51 @@ class TuyaController(udi_interface.Node):
             LOGGER.info(address)
             if i['model'] == "SS01S(\u4e0d\u5206\u8d1f\u8f7d)\u4e50\u946b" or i['model'] == "SP10" or i['product_name'] == "Smart Socket" or i['product_name'] == "Mini Smart Plug" or i['model'] == "\u5f00\u5173(\u84dd\u7259+Wi-Fi)" or i['product_id'] == "0g1fmqh6d5io7lcn" or i["model"] == "MK11" or i["product_id"] == "qCY4YFq02AP0i1Uu" or i['model'] == "SS01S\uff08\u706b\u7ebf\u8d1f\u8f7d\u7ebf\u4e0d\u5206\u7248\u672c\uff09BK\u7248\u672c":
                 LOGGER.info('SWITCH Node Needed')
-                LOGGER.info("z\Please Install Tuya Plugin")
+                LOGGER.info("PLEASE INSTALL TUYA PLUGIN")
                 LOGGER.info('\n')
             elif i['model'] == "SM-SW202" or i['product_id'] == "tyapv9hrbns9dvfj" or i['model'] == "SS01" or i['product_name'] == "3 Way Smart Switch":
                 LOGGER.info('Three Way SWITCH Node Needed')
-                LOGGER.info("Please Install Tuya Plugin")
+                LOGGER.info("PLEASE INSTALL TUYA PLUGIN")
                 LOGGER.info('\n')
             elif i['model'] == "DS01C(\u91cf\u4ea7\uff09":
                 LOGGER.info('DIMMER SWITCH Node Needed')
-                LOGGER.info("Please Install Tuya Plugin")
+                LOGGER.info("PLEASE INSTALL TUYA PLUGIN")
                 LOGGER.info('\n')
             elif i['model'] == "\u706f\u5e26\u63a7\u5236\u5668\uff08BK\uff09" or i["product_id"] == "aj1e2vrpy87rdy7t" or i["product_id"] == "cxwfwenub0ahkhxr":
                 LOGGER.info('LED V1 Node Needed')
-                LOGGER.info("Please Install Tuya Plugin")
+                LOGGER.info("PLEASE INSTALL TUYA PLUGIN")
                 LOGGER.info('\n')
             elif i["product_id"] == "jph1bkklotfovejk" or i["product_id"] == "jzkpltrhwqyzoc33" or i['model'] == "SL10" or i['product_name'] == "Merkury BW904 Smart Bulb" or i['product_name'] == "120V A19 9W SMART BULB" or ['product_name'] == "Smart Bulb-SL20" or i['product_id'] == "cdy6tbsxmkvgjmyh":
                 LOGGER.info('LED V2 Node Needed')
-                LOGGER.info("Please Install Tuya Plugin")
+                LOGGER.info("PLEASE INSTALL TUYA PLUGIN")
                 LOGGER.info('\n')
             elif i['model'] == "1.0.1" or i['product_id'] == "k2h8vkj98fhvnpiv":
                 LOGGER.info('MOTION INFRARED Node Needed')
-                LOGGER.info("Please Install Tuya Plugin")
+                LOGGER.info("PLEASE INSTALL TUYA PLUGIN")
                 LOGGER.info('\n')
             elif i['model'] == "TY-DIY-S04" or i['model'] == "AHR-085" or i['product_id'] == "pxi0drurxccaahyr":
                 LOGGER.info('RELAY Node Needed')
-                LOGGER.info("Please Install TuyaRelay Plugin")
+                LOGGER.info("PLEASE INSTALL TUYARELAY PLUGIN")
                 LOGGER.info('\n')
             elif i["product_id"] == "upgcbody" or i["product_id"] == "js34cuma":
                 LOGGER.info('LEAK SENSOR Node Needed')
-                LOGGER.info("Please Install TuyaRelay Plugin")
+                LOGGER.info("PLEASE INSTALL TUYARELAY PLUGIN")
                 LOGGER.info('\n')
             elif i['model'] == "ARD-100+" or i['product_id'] == "nguto5atyd2xxnap" or i['model'] == "1-433" or i['product_id'] == "ansyev8xo2glpuax":
                 LOGGER.info('VALVE Node Needed')
-                LOGGER.info("Please Install TuyaRelay Plugin")
+                LOGGER.info("PLEASE INSTALL TUYARELAY PLUGIN")
                 LOGGER.info('\n')
             elif i['model'] == "HC700TY" or i['model'] == "BMC33D WiFi" or i['product_name'] == "CURTAIN SYSTEM" or i['product_name'] == "Curtain":
                 LOGGER.info('CURTAIN Node Needed')
-                LOGGER.info("Please Install TuyaCurtain Plugin")
+                LOGGER.info("PLEASE INSTALL TUYACURTAIN PLUGIN")
                 LOGGER.info('\n')
             elif i['model'] == "PIR-wifi-V01" or i['product_name'] == "PIR Sensor " or i['product_name'] == "PIR " or i['product_name'] == "PIR Motion Detector Alarm" or i['product_name'] == "PIR senser" or i['model'] == "AW201_CBU" or i['product_name'] == "Contact Sensor":
                 LOGGER.info('PIR MOTION SENSOR Node Needed')
-                LOGGER.info("Please Install TuyaPir Plugin")
+                LOGGER.info("PLEASE INSTALL TUYAPIR PLUGIN")
                 LOGGER.info('\n')
             else:
                     LOGGER.info("OTHER UNKNOWN DEVICE")
-                    LOGGER.info("Please email info log to sjpbailey1961@gmail.com")
+                    LOGGER.info("PLEASE EMAIL INFO LOG TO sjpbailey1961@gmail.com")
             time.sleep(2)
 
     def pulsar(self):
